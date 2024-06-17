@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*-----NAVBAR-----*/
+.navbar{
+    /* height: 80px; */
+    background-color: #212C58;
+    color: #fff;
+    text-decoration: none;
+}
+.bg-primary {
+    background-color: #212C58 !important;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    background-color: #313c69;
+    background-image: none;
+    border-color: #212C58;
+}
+.btn-outline-success:hover{
+    background-color: #261b6e;
+    border-color: #212C58;
+    box-shadow: none;
+}
+
+.btn-outline-success {
+    background-color: #261b6e;
+    border-color: #212C58;
+    box-shadow: none;
+}
+/*------------------------------*/
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle{
+    background-color: #261b6e;
+    border-color: #212C58;
+
+}
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 140, 216, 0.5);
+}
+
+.carousel__item-img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    margin-right: 10px;
+    color: #fff;
+    background-color: #212C58;
+    border-color: #212C58;
+}
+
+#img-about{
+    margin-top: 50px;
+}
+span{
+    color: #212C58;
+}
+.container h1{
+    font-size: 40px;
+}
+.container h2{
+    font-size: 35px;
+}
+.container p{
+    font-size: 17px;
+}
+.buttons{
+    display: flex;
+    margin-top: 20px
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.text-nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 22px;
+    border: solid 1px #000000;
+    color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 2px;
+    transition: all 500ms;
+}
+.social-icons i:hover{
+    transform: translateY(-7px);
+}
+.fa-facebook:hover{
+    color: blue;
+    border: blue solid 1.5px;
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 255);
+    border: rgb(255, 0, 255) solid 1.5px;
+}
+.fa-x-twitter:hover{
+    color: blue;
+    border: blue solid 1.5px;;
+}
+.fa-whatsapp:hover{
+    color: rgb(0, 255, 55);
+    border: rgb(0, 255, 13) solid 1.5px;
+}
+
+#service1{
+    background-color: #212C58;
+}
+
+#service1 .service--title{
+    width: 100%;
+}
+
+
+.card{
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    margin: 10px;
+    color: white;
+}
+.fa-star{
+    color: black;
+    background-color: #ffffff;
+    border: solid white;
+    border-radius: 100%;
+    padding: 10px;
+}
+.text-card{
+    color: black; 
+}
+
+#contact{
+    padding: 80px 80px;
+    background-color: #212C58;
+    text-transform: capitalize;
+}
+
+.footer__title {
+    padding: 20px 0;
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+#contact ul li a{
+    text-align: start;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+#contact ul li a:hover{
+    color: white;
+    padding-left: 6px;
+}
+
+.social-icons-footer a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(128, 128, 128, 0.767);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+}
+
+.social-icons-footer a:hover {
+    background-color: #212C58;
+}
+
+.copi{
+    background: #ffffff;
+    text-align: center;
+    height: 4px;
+    justify-content: center;
+}
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    #service1 .service--title{
+        width: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    #service1 .service--title{
+        width: 65%;
+    }
+}
+
+@media (min-width: 1200px) {
+}
